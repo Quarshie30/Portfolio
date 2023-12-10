@@ -8,6 +8,11 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+.page-wrapper {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
 
 h1,
 h2,
@@ -24,8 +29,9 @@ p {
 
 .menu{
   display: flex;
-  justify-content: space around;
-  color: black;
+    justify-content: space-around;
+    color: whitesmoke;
+    background-color: slategray;
 }
 
 .menu li{
@@ -34,11 +40,62 @@ p {
 }
 
 h1{
-  background-color: purple;
-  height: 100px
+  text-align:center;
+  display:flex;
+  background-color: lightslategrey;
+  height: 40px;
 }
 
   h2{
     background-color: lightgray;
-    height: 500px;
+    height: 100px;
+    margin: 5px
+}
+
+h3{
+  background-color: lightgray;
+  height: 200px;
+  margin: 10px
+}
+
+h4{
+  background-color: lightgray;
+  height: 400px;
+  margin: 10px
+}
+
+h5{
+  background-color: lightgray;
+  height: 20px;
+  margin: 10px
+
+}
+.hero-banner{
+    max-height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/*Work Grid code*/
+.Work{
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/*Contact Me */
+.footer h5 {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.footer h5 {
+  font-size: 20px;
 }
